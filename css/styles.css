@@ -1,4 +1,53 @@
 body {
-  font-family: sans-serif; }
+  font-family: helvetica, sans-serif;
+  background-image: url(../images/wallpaper.jpg);
+  background-color: #00ff00;
+  margin: 50px; }
+  body p, body h2, body h3, body ol, body li {
+    color: white;
+    text-align: center;
+    list-style-position: inside; }
+  body h2 {
+    font-size: 2em;
+    color: #00ff00; }
+  body a:link {
+    color: #00ff00; }
+  body a:visited {
+    color: purple; }
+  body a:focus {
+    color: yellow;
+    background: black; }
+  body a:hover {
+    color: yellow;
+    background: black; }
+  body a:active {
+    color: blue;
+    background: pink; }
   body img {
     width: 100%; }
+  body .logo {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; }
+  body .video {
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 1em;
+    border: 3px;
+    border-style: solid;
+    border-color: #00ff00;
+    border-radius: .5em;
+    background-color: grey; }
+  body .album {
+    width: 350px;
+    height: 350px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    border-style: solid;
+    border-color: #00ff00;
+    border-radius: .5em; }
